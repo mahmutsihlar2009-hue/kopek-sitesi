@@ -1,0 +1,40 @@
+
+body {
+    background: linear-gradient(to right, #1474d3, #63ace0);
+}
+
+.navbar {
+    background: linear-gradient(45deg, #ff6f00, #ff8f00);
+}
+
+/* Slider düzeltme */
+.carousel-item img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.section-title {
+    color: #ff6f00;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: 0.4s;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer { background: #111; color: #fff; }
+#carouselExampleIndicators{
+    padding-top: 30px;
+}
